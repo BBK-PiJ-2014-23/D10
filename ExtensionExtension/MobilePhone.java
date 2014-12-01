@@ -14,9 +14,11 @@ public class MobilePhone extends OldPhone {
     }
 
     public void printLastNumbers() {
+        System.out.println("Last numbers dialed:");
         for (int i = 0; i < lastNumbers.length; i++) {
-            System.out.println(lastNumbers[i]);
+            System.out.print(lastNumbers[i] + ", ");
         }
+        System.out.println();
     }
     
     @Override
