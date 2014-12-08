@@ -6,10 +6,6 @@ public class SmartPhone extends MobilePhone {
         position = "X10Y20";
     }
     
-    public void playGame(String game) {
-        System.out.println("Playing game " + game + "...");
-    }
-
     public void browseWeb(String web) {
         System.out.println("Browsing website " + web + "...");
     }
